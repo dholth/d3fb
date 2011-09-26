@@ -6,7 +6,8 @@ here = os.path.abspath(os.path.dirname(__file__))
 README = open(os.path.join(here, 'README.txt')).read()
 CHANGES = open(os.path.join(here, 'CHANGES.txt')).read()
 
-requires = ['pyramid', 'pyramid_debugtoolbar', 'ewsclient']
+requires = ['pyramid', 'pyramid_debugtoolbar', 'ewsclient', 'python-ntlm',
+            'python-dateutil']
 
 setup(name='d3fb',
       version='0.0',
