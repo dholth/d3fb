@@ -1,6 +1,7 @@
 from pyramid.config import Configurator
 from d3fb.resources import Root
 import ewsclient
+import ewsclient.monkey
 from suds.transport.https import WindowsHttpAuthenticated
 from suds.client import Client
 from suds.cache import ObjectCache
